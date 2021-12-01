@@ -5,7 +5,7 @@ import sys
 
 
 setup(
-    name="nuts-and-bolts",
+    name="pyrequisites",
     version="0.0.0",
     python_requires=">3.7.0",
     author="Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard",
@@ -13,9 +13,9 @@ setup(
     url="",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    description="nuts-and-bolts",
+    description="pyrequisites",
     packages=[
-        "nuts-and-bolts",
+        "pyrequisites",
     ],
     install_requires=[
 
