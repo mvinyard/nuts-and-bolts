@@ -1,1 +1,3 @@
-# nuts-and-bolts
+# pyrequisites
+
+Prerequisite python nuts-and-bolts functions. 
