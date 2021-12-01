@@ -18,7 +18,7 @@ setup(
         "pyrequisites",
     ],
     install_requires=[
-
+        "licorice>=0.0.2",
     ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
