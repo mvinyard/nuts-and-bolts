@@ -1,2 +1,3 @@
-# nuts-and-bolts
-Python nuts and bolts
+# Nuts and bolts
+
+Python essentials. 
