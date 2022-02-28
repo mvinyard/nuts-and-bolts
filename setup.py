@@ -5,7 +5,7 @@ import sys
 
 
 setup(
-    name="pyrequisites",
+    name="pydk",
     version="0.0.1",
     python_requires=">3.7.0",
     author="Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard",
