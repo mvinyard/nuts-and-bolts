@@ -11,3 +11,12 @@ Install with [pip](https://pypi.org/project/pydk/)
 ```python
 pip install pydk
 ```
+
+Install the development verison:
+```BASH
+git clone https://github.com/mvinyard/python-developer-kit.git; cd ./python-developer-kit
+pip install -e .
+```
+
+---
+Questions? Open an [issue](https://github.com/mvinyard/python-developer-kit/issues/new) or send an email to [Michael Vinyard](mailto:mvinyard@broadinstitute.org).
