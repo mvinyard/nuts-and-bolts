@@ -8,3 +8,5 @@ from ._mk_GCP_command import _mk_GCP_command as gcp
 from ._load_pickled import _load_pickled as load_pickled
 from ._class_attributes import _class_attributes as class_attributes
 from ._to_list import _to_list as to_list
+from ._update_python_class_attr import _update_python_class_attr as update_class
+from ._dynamical_import_of_function_from_string import _dynamical_import_of_function_from_string as func_from_str

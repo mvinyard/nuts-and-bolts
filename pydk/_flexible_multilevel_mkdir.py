@@ -48,4 +48,4 @@ def _flexible_multilevel_mkdir(path, verbose=True):
         if len(parsed_path) == (len(path.split("/")) - 1):
             _flexible_mkdir("/".join(parsed_path), verbose)
         else:
-            _flexible_mkdir("/".join(parsed_path), verbose=False)
+            _flexible_mkdir("/".join(parsed_path), verbose)
