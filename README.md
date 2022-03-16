@@ -19,4 +19,4 @@ pip install -e .
 ```
 
 ---
-Questions? Open an [issue](https://github.com/mvinyard/python-developer-kit/issues/new) or send an email to [Michael Vinyard](mailto:mvinyard@broadinstitute.org).
+**Questions or suggestions**? Open an [issue](https://github.com/mvinyard/python-developer-kit/issues/new) or send an email to [Michael Vinyard](mailto:mvinyard@broadinstitute.org).
