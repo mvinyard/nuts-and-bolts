@@ -13,3 +13,5 @@ from ._dynamical_import_of_function_from_string import _dynamical_import_of_func
 from ._rounding import _floor as floor
 from ._rounding import _ceil as ceil
 from ._current_time import _current_time as time
+from ._GIF import _GIF as GIF
+from ._GIF import _make_GIF as make_GIF
