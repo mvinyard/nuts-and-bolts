@@ -18,7 +18,7 @@ setup(
         "pydk",
     ],
     install_requires=[
-        "licorice>=0.0.2",
+        "licorice_font>=0.0.3",
     ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
