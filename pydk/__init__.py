@@ -16,3 +16,4 @@ from ._current_time import _current_time as time
 from ._GIF import _GIF as GIF
 from ._GIF import _make_GIF as make_GIF
 from ._min_max_normalize import _min_max_normalize as min_max_normalize
+from ._filter_overlapping import _filter_overlapping as filter_overlapping
