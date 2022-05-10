@@ -12,4 +12,13 @@ from ._update_python_class_attr import _update_python_class_attr as update_class
 from ._dynamical_import_of_function_from_string import _dynamical_import_of_function_from_string as func_from_str
 from ._rounding import _floor as floor
 from ._rounding import _ceil as ceil
+<<<<<<< HEAD
 from ._current_time import _current_time as time
+=======
+from ._current_time import _current_time as time
+from ._GIF import _GIF as GIF
+from ._GIF import _make_GIF as make_GIF
+from ._min_max_normalize import _min_max_normalize as min_max_normalize
+from ._filter_overlapping import _filter_overlapping as unique
+from ._find_overlapping import _find_overlapping as overlap
+>>>>>>> 9a30fa093f9f551a1b4f650c67fcb732f0b6fbf1

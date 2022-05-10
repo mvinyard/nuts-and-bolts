@@ -6,7 +6,7 @@ import sys
 
 setup(
     name="pydk",
-    version="0.0.41",
+    version="0.0.5",
     python_requires=">3.7.0",
     author="Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard",
     author_email="mvinyard@broadinstitute.org",
@@ -18,7 +18,7 @@ setup(
         "pydk",
     ],
     install_requires=[
-        "licorice>=0.0.2",
+        "licorice_font>=0.0.3",
     ],
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
