@@ -18,3 +18,4 @@ from ._GIF import _make_GIF as make_GIF
 from ._min_max_normalize import _min_max_normalize as min_max_normalize
 from ._filter_overlapping import _filter_overlapping as unique
 from ._find_overlapping import _find_overlapping as overlap
+from ._conda_package_installer._conda_package_installer import conda_package_installer
