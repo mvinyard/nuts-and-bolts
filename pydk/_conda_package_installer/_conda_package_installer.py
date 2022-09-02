@@ -33,4 +33,4 @@ class conda_package_installer:
         )
 
     def remove_package(self):
-        self._rm_log = _remove_package(self._pkg_name)
+        self._rm_log, self.installed = _remove_package(self._pkg_name)

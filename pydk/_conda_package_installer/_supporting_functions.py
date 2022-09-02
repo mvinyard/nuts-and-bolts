@@ -10,7 +10,7 @@ import subprocess
 # conda list ------------------------------------------------------------------
 def _conda_list_subprocess():
     return subprocess.run(
-        ["conda", "list"], stdout=_subprocess.PIPE, stderr=False
+        ["conda", "list"], stdout=subprocess.PIPE, stderr=False
     ).stdout.decode()
 
 
@@ -54,7 +54,7 @@ def _do_install_conda_pkg(channel, package_name):
 
     package_name_ = licorice_font.font_format(package_name, ["BOLD", "GREEN"])
 
-    download_message = "Installing {} via conda... this may take a few seconds and we only need to do it once per environment...".format(
+    download_message = "Installing {} via conda... this may take a few seconds...".format(
         package_name_
     )
     print(download_message, end=" ")
@@ -86,9 +86,11 @@ def _check_download_log(download_log):
 # rm package ------------------------------------------------------------------
 def _remove_package(package_name):
 
-    command = "conda remove {} -y".format(package_name)
+    command = ["conda", "remove", package_name, "-y"]
     try:
-        return subprocess.run(command, stdout=subprocess.PIPE, stderr=False)
+        rm_log = subprocess.run(command, stdout=subprocess.PIPE, stderr=False)
+        if rm_log.stdout.decode("utf-8").endswith("done\n"):
+            return rm_log, "removed"
     except:
         package_name = licorice_font.font_format(package_name, ["BOLD", "GREEN"])
-        print("Package: {} is not installed.".format(package_name))
+        print("Could not remove: {}. Maybe it is not installed.".format(package_name))
