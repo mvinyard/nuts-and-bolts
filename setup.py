@@ -16,6 +16,7 @@ setup(
     description="Python Developer Kit",
     packages=[
         "pydk",
+        "pydk._conda_package_installer",
     ],
     install_requires=[
         "licorice_font>=0.0.3",
